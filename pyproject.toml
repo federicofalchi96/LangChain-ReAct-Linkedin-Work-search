@@ -1,0 +1,18 @@
+[project]
+name = "langchain_jobs"
+version = "0.1.0"
+description = "Agente ReAct per cercare offerte di lavoro con LangChain e Tavily"
+authors = [{ name = "Federico Falchi" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-tavily",
+    "pydantic",
+    "python-dotenv",
+]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
