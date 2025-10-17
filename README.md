@@ -39,7 +39,7 @@ per ruoli che utilizzano LangChain, LangGraph o tecnologie correlate.
 
 4. Esegui:
    ```bash
-   uv run main.py
+   uv run linkedin_search.py
    ```
 
 ## 📄 Output
