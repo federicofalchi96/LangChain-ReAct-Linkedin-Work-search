@@ -1,14 +1,14 @@
-# 🔍 LangChain Job Search Agent
+# LangChain Job Search Agent
 
 Un agente ReAct costruito con **LangChain** e **TavilySearch**, in grado di cercare offerte di lavoro su LinkedIn
 per ruoli che utilizzano LangChain, LangGraph o tecnologie correlate.
 
-## 🧠 Funzionalità
+## Funzionalità
 - Usa `LangChain` con `ChatOpenAI` per ragionamento e generazione.
 - Esegue ricerche web tramite `TavilySearch`.
 - Restituisce risultati ben strutturati in formato Pydantic.
 
-## ⚙️ Setup
+## Setup
 
 1. Clona il repository:
    ```bash
@@ -42,12 +42,9 @@ per ruoli che utilizzano LangChain, LangGraph o tecnologie correlate.
    uv run linkedin_search.py
    ```
 
-## 📄 Output
+## Output
 L’agente stampa in console:
 - Una sintesi testuale
 - L’elenco delle offerte trovate con titolo, azienda, località e link LinkedIn
 
 ---
-
-✨ **Autore:** Federico Falchi  
-🧩 **Tecnologie:** LangChain · Tavily · OpenAI · Python 3.10+
